@@ -6,6 +6,9 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.StringTokenizer;
 
+/**
+ * 입력한 사전 내 이름과 순서대로 번호를 넣고, 번호를 넣으면 이름을 이름을 넣으면 번호를 출력하도록
+ * */
 public class No1620 {
     public static void main(String[] args) throws Exception {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

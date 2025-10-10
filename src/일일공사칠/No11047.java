@@ -1,7 +1,12 @@
+package 일일공사칠;
 import java.io.*;
 import java.util.*;
 
-public class Main {
+/**
+ * 동전의 개수와 각 동전의 값이 주어지고 만들어야하는 값 K 가 주어진다.
+ * 최소한의 동전 개수를 활용하여 K를 만드시오.
+ * */
+public class No11047 {
     public static void main(String[] args) throws Exception {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st = new StringTokenizer(br.readLine());

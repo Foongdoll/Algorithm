@@ -7,6 +7,9 @@ import java.util.Collections;
 import java.util.List;
 import java.util.StringTokenizer;
 
+/**
+ * s 라는 집합에 들어오는 명령어에 맞춰 작업 수행
+ * */
 public class No11723 {
     public static void main(String[] args) throws Exception {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

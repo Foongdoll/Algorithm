@@ -4,7 +4,9 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.*;
-
+/**
+ * 듣도 못한 사람과 보도 못한 사람이 주어지면 듣도 보도 못한 사람을 찾는 문제
+ * */
 public class No1764 {
 
     public static void main(String[] args) throws Exception {
