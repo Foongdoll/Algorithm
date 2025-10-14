@@ -25,25 +25,21 @@ public class No1094 {
 
         int[] ruler = new int[7];
 
-        int max = 0;
         int cnt = 0;
-        int sum = 0;
 
         ruler[0] = 1;
         for(int i = 1; i < 7; i++) {
             ruler[i] = ruler[i-1] * 2;
 
             if(X == ruler[i]) cnt = 1;
-            if(X <= ruler[i] && max == 0) max = i-1;
         }
         if(cnt == 0) {
-            for(int i = max; i >= 0; i--) {
-                sum = ruler[i];
-                if(X - sum >= 0) {
-                    X = X - sum;
+            for(int i = 6; i >= 0; i--) {
+                if(X - ruler[i] >= 0) {
+                    X = X - ruler[i];
                     cnt++;
                 }
-                if(sum == X) break;
+                if(X == 0) break;
             }
         }
 
