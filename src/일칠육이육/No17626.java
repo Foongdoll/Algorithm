@@ -1,4 +1,14 @@
-package 일칠육이육;
+﻿package 일칠육이육;
+
+/**
+ * BOJ 17626 · Four Squares
+ * - 문제 요약: 자연수 n을 네 개 이하 제곱수 합으로 표현할 때 필요한 최소 항의 수를 구한다.
+ * - 알고리즘: 동적 계획법 + 제곱수 사전 계산
+ * - 시간 복잡도: O(n√n)
+ * - 공간 복잡도: O(n)
+ * - 사용 이유: 제곱수 목록을 사전에 만들고 이전 결과를 참고하면 모든 수를 누적 계산할 수 있다.
+ * - 기타: dp[0]=0으로 시작하고 Integer.MAX_VALUE 가드로 오버플로를 방지한다.
+ */
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;

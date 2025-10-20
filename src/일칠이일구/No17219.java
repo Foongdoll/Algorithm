@@ -1,4 +1,14 @@
-package 일칠이일구;
+﻿package 일칠이일구;
+
+/**
+ * BOJ 17219 · 비밀번호 찾기
+ * - 문제 요약: 사이트 주소와 비밀번호가 주어지면 쿼리마다 대응 비밀번호를 찾아 출력한다.
+ * - 알고리즘: 해시맵
+ * - 시간 복잡도: O(N + M)
+ * - 공간 복잡도: O(N)
+ * - 사용 이유: 주소를 키로 저장하면 각 쿼리를 한 번의 조회로 해결할 수 있다.
+ * - 기타: StringBuilder로 결과를 모아 출력 비용을 줄였다.
+ */
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;

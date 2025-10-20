@@ -1,4 +1,14 @@
-package 일일칠이삼;
+﻿package 일일칠이삼;
+
+/**
+ * BOJ 11723 · 집합
+ * - 문제 요약: 1부터 20까지의 정수 집합에 대한 추가, 삭제, 조회 연산을 구현한다.
+ * - 알고리즘: 구현 (ArrayList 기반 집합 시뮬레이션)
+ * - 시간 복잡도: O(연산 수 × 20)
+ * - 공간 복잡도: O(20)
+ * - 사용 이유: 원소 범위가 작아서 리스트만으로도 모든 연산을 충분히 빠르게 처리할 수 있다.
+ * - 기타: removeAll과 contains를 사용해 중복을 제거하고 토글 동작을 단순화했다.
+ */
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;

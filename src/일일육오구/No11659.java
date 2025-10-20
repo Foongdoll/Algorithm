@@ -1,4 +1,14 @@
-package 일일육오구;
+﻿package 일일육오구;
+
+/**
+ * BOJ 11659 · 구간 합 구하기 4
+ * - 문제 요약: 수열과 구간 합 쿼리가 주어졌을 때 각 구간 합을 빠르게 구한다.
+ * - 알고리즘: 누적합 (Prefix Sum)
+ * - 시간 복잡도: O(N + M)
+ * - 공간 복잡도: O(N)
+ * - 사용 이유: 누적합을 한 번 계산해두면 쿼리를 상수 시간에 처리할 수 있다.
+ * - 기타: 1-based 인덱스를 사용해 prefix[end] - prefix[start-1] 형태로 즉시 합을 구한다.
+ */
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
