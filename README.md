@@ -2,8 +2,6 @@
 
 # 백준 알고리즘 풀이 정리
 
-포트폴리오용으로 정리한 백준 풀이 목록입니다. 각 문제에 대해 문제 요약, 활용 알고리즘, 복잡도, 선택 이유, 참고 사항을 한눈에 확인할 수 있도록 정리했습니다.
-
 ## 패키지 바로가기
 - [구삼칠오](https://github.com/Foongdoll/Algorithm/tree/master/src/구삼칠오/No9375.java)
 - [구영구오](https://github.com/Foongdoll/Algorithm/tree/master/src/구영구오/No9095.java)
