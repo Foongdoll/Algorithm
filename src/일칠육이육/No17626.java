@@ -1,4 +1,4 @@
-﻿package 일칠육이육;
+package 일칠육이육;
 
 /**
  * BOJ 17626 · Four Squares

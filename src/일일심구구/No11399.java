@@ -1,4 +1,4 @@
-﻿package 일일심구구;
+package 일일심구구;
 
 /**
  * BOJ 11399 · ATM

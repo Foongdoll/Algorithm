@@ -1,4 +1,4 @@
-﻿package 일공구사;
+package 일공구사;
 
 /**
  * BOJ 1094 · 막대기

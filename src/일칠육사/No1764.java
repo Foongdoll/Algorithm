@@ -1,4 +1,4 @@
-﻿package 일칠육사;
+package 일칠육사;
 
 /**
  * BOJ 1764 · 듣보잡

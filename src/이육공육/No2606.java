@@ -1,4 +1,4 @@
-﻿package 이육공육;
+package 이육공육;
 
 /**
  * BOJ 2606 · 바이러스
